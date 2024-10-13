@@ -1,0 +1,23 @@
+{
+  "index": {
+    "title": "系统简介"
+  },
+  "----": {
+    "type": "separator"
+  },
+  "base-guide": {
+    "title": "在线系统使用指南"
+  },
+  "api-guide": {
+    "title": "API使用指南"
+  },
+  "sdk-guide": {
+    "title": "SDK使用指南"
+  },
+  "---": {
+    "type": "separator"
+  },
+  "agreement": {
+    "title": "用户协议/隐私政策"
+  }
+}
