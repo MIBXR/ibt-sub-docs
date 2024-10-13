@@ -13,9 +13,9 @@ const config: DocsThemeConfig = {
     </>
   ),
   project: {
-    link: 'https://github.com/MIBXR/code-docs',
+    link: 'https://github.com/MIBXR/ibt-sub-docs',
   },
-  docsRepositoryBase: 'https://github.com/MIBXR/code-docs/blob/main',
+  docsRepositoryBase: 'https://github.com/MIBXR/ibt-sub-docs/blob/main',
   footer: {
     text: (
       <span>
@@ -32,7 +32,7 @@ const config: DocsThemeConfig = {
     const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
     const url =
-      'http://localhost:3000' +
+      'https://ibt-sub-docs.choco-xie.xyz/' +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
  
     return (
