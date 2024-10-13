@@ -13,3 +13,37 @@
 [`Nextra`](https://nextra.site/) 站点生成框架
 
 [`MDX`](https://mdxjs.com/) 支持js交互的轻量级标记语言
+
+## 开发和部署
+
+**1. 环境初始化**
+
+```bash
+tyarn
+```
+
+**2. 开发**
+
+```bash
+# 启动服务。重新编辑代码后，页面还会自动刷新。
+npm run dev
+```
+
+**3. 部署**
+
+- 方案1：[vercel](https://vercel.com/)
+
+  推荐使用vercel部署，详见官网文档
+
+  ```bash
+  npm install -g vercel
+  vercel login
+  vercel
+  ```
+
+- 方法2：本地自定义部署
+
+  ```bash
+  npm run build
+  npm run start
+  ```
