@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
     <>
       <img src="/icons/camera.svg" alt="Docs Icon" style={{ width: '24px', height: '24px' }} />
       <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-      Choco Xie Docs
+      IBT Docs
       </span>
     </>
   ),
@@ -25,7 +25,7 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Choco Xie Docs'
+      titleTemplate: '%s – IBT Docs'
     }
   },
   head: () => {
@@ -38,7 +38,7 @@ const config: DocsThemeConfig = {
     return (
       <>
         <meta property="og:url" content={url} />
-        <meta property="og:title" content={frontMatter.title || 'Choco Xie Docs'} />
+        <meta property="og:title" content={frontMatter.title || 'IBT Docs'} />
         <meta
           property="og:description"
           content={'IBT Docs. Powered by Nextra'}
